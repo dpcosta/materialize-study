@@ -1,0 +1,52 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.menu-principal {
+  display: flex;
+}
+
+.menu-principal .brand-logo {
+  position: static;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-principal .brand-logo {
+    position: absolute;
+  }
+}
+
+.menu-principal form {
+  flex-grow: 1;
+  height: auto;
+  margin: 10px 1em;
+}
+
+.menu-principal form input[type="search"] {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.menu-principal form i,
+.menu-principal form label {
+  top: -8px !important;
+}
+
+.card-action .pagination a {
+  margin-right: 0 !important;
+}
+
+table.ordered thead th:after {
+  content: "\2193";
+}
